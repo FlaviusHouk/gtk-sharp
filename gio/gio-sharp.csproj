@@ -1,17 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\glib\glib.csproj" />
+    <ProjectReference Include="..\glib\glib-sharp.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>atk</RootNamespace>
-    <AssemblyName>atk-sharp</AssemblyName>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <RootNamespace>gio</RootNamespace>
+    <AssemblyName>gio-sharp</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>atk-sharp2</PackageId>
+    <PackageId>gio-sharp2</PackageId>
     <Version>1.0</Version>
     <Authors>Flavius Houk</Authors>
     <Company>Mono</Company>

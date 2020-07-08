@@ -1,19 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\glib\glib.csproj" />
-    <ProjectReference Include="..\cairo\cairo.csproj" />
+    <ProjectReference Include="..\glib\glib-sharp.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <RootNamespace>pango</RootNamespace>
-    <AssemblyName>pango-sharp</AssemblyName>
+    <RootNamespace>atk</RootNamespace>
+    <AssemblyName>atk-sharp</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>pango-sharp</PackageId>
+    <PackageId>atk-sharp2</PackageId>
     <Version>1.0</Version>
     <Authors>Flavius Houk</Authors>
     <Company>Mono</Company>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\glib\glib-sharp.csproj" />
+    <ProjectReference Include="..\cairo\cairo-sharp.csproj" />
+    <ProjectReference Include="..\gdk\gdk-sharp.csproj" />
+    <ProjectReference Include="..\gio\gio-sharp.csproj" />
+    <ProjectReference Include="..\atk\atk-sharp.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Gtk</RootNamespace>
+    <AssemblyName>gtk-sharp</AssemblyName>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>gtk-sharp2</PackageId>
+    <Version>1.0</Version>
+    <Authors>Flavius Houk</Authors>
+    <Company>Mono</Company>
+  </PropertyGroup>
+
+</Project>

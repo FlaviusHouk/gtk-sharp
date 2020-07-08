@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\glib\glib.csproj" />
-    <ProjectReference Include="..\cairo\cairo.csproj" />
-    <ProjectReference Include="..\gio\gio.csproj" />
-    <ProjectReference Include="..\pango\pango.csproj" />
+    <ProjectReference Include="..\glib\glib-sharp.csproj" />
+    <ProjectReference Include="..\cairo\cairo-sharp.csproj" />
+    <ProjectReference Include="..\gio\gio-sharp.csproj" />
+    <ProjectReference Include="..\pango\pango-sharp.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
